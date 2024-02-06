@@ -9,21 +9,23 @@ The live demo for the app can be viewed at: [Click here](https://65c2677896121e1
 
 ## To set up and run a project locally, follow these steps:
 
-To run this project locally
-
-- Clone this git repository
+1. Clone the Git Repository: Clone the repository containing the project files using the git clone command. Replace <repository-url> with the actual URL of the Git repository.
     ```bash
-    git clone
+    git clone https://github.com/abcdeCoder/Frontend-Assignment.git
     ```
-- Install the dependencies
+2. Install Dependencies: Navigate to the project directory and install the required dependencies using npm or yarn.
     ```
     cd 
-    npm install or yarn install
+    cd <project-directory>
+    npm install
+      or 
+    cd <project-directory>
+    yarn install
     ```
 
-- Start the dev server
+3. Start the Development Server: Once the dependencies are installed, start the development server using npm or yarn.
     ```
-    npm start 
+    npm start or yarn start
     ```
 
-- The development server will start at localhost port 3000.
+4. Access the Development Server: The development server will start at localhost on port 3000 by default. Open your web browser and navigate to ```http://localhost:3000 ```to access the project locally.
